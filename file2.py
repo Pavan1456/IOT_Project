@@ -141,4 +141,4 @@ def upload_dataset():
 if __name__ == "__main__":
     print("Starting Flask server...")
     print("Routes registered:", app.url_map)
-    app.run(debug=True, port=5001)
+    app.run(debug=True, port=5000)
